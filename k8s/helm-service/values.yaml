@@ -1,0 +1,10 @@
+app:
+  name: react-app-for-k8s
+  components: react-app-for-k8s
+  image: coremotor/react-app-for-k8s
+  version: v0.0.4
+  port: 80
+  limits:
+    memory: "128Mi"
+    cpu: "100m"
+  replicas: 2
